@@ -1,0 +1,148 @@
+*** Lobo Changelog *** 
+
+25 October 2014 - Version 2.0.9
+
+	* Added an option to disable unlimited portfolios
+	* Added support for WooCommerce categories grid
+	* Fixed some other minor issues
+
+4 October 2014 - Version 2.0.8
+
+	* Updated Font Awesome to v4.2 (Lobo Shortcodes update)
+	* Fixed WPEngine module builder conflict
+	* Fixed thin fonts issue
+
+27 September 2014 - Version 2.0.7
+
+	* Fixed a bug related to WooCommerce variations
+	* Fixed a bug related to logo force detection
+
+22 September 2014 - Version 2.0.6
+
+	* Fixed a bug caused by last update
+
+16 September 2014 - Version 2.0.5
+
+	* Added support for WooCommerce 2.2.x
+	* Added templating system for the Module Builder
+	* Added _target option for the social shortcode
+	* Fixed self hosted video headers with auto height
+	* Fixed WooCommerce variation images issues
+	* Fixed menu touch issues for Android devices
+	* Updated the language files
+
+8 September 2014 - Version 2.0.4
+
+	* Added option for audio players to stop when a new one is triggered
+	* Enabled the use of animated gif's for portfolio thumbnails
+	* Fixed missing preloader on 404 pages
+	* Fixed other minor issues
+
+15 August 2014 - Version 2.0.3
+
+	* Added high resolution preloaders
+	* Fixed solid background header issues
+	* Fixed links with hashtag not working
+	* Fixed fading YouTube videos error
+	* Fixed embedded videos playback on mobile devices
+	* Fixed other known bugs
+
+8 August 2014 - Version 2.0.2
+
+	* Fixed some minor styling issues
+
+1 August 2014 - Version 2.0.1
+	
+	* Added option to enable cart display on entire site
+	* Added option to hide product "sale" notice
+	* Added message for users with javascript disabled
+	* Fixed an issue with custom URL's projects
+	* Fixed some issues related to text hero headers
+	* Fixed some minor issues related to WooCommerce
+	* Fixed closed accordion shortcode issue
+
+30 July 2014 - Version 2.0
+	
+	* Added support for WooCommerce
+	* Added support for password protected content
+	* Added an accordion shortcode (updated the Lobo Shortcodes plugin to v1.0.3)
+	* Added more options for text modules, such as vertical alignment of text and another wrapping option
+	* Added support for self hosted videos
+	* Improved video support on mobile devices
+	* Fixed white stripes issue in Safari
+	* Fixed issues with contact form button
+	* Fixed other bugs
+
+11 July 2014 - Version 1.2
+
+    * Added slider speed option for hero sliders
+    * Added custom height options for all hero headers
+    * Added manual “detection” of hero background per page
+    * Improved the text hero with new options for background images and vertical alignment
+    * Improved styling for custom forms
+    * Fixed an error with text hero and infinite loading portfolio
+    * Fixed other small bugs
+
+19 June 2014 - Version 1.1.4
+	
+	* Added option for custom URL's in the portfolio grid
+	* Fixed some bugs related to text module
+	* Improved fonts handling and added more Google Fonts
+
+6 June 2014 - Version 1.1.3
+	
+	* Fixed contact form bug
+
+5 June 2014 - Version 1.1.2
+	
+	* Added fade options for sliders
+	* Added more typography options in the text editor
+	* Fixed some resizing issues
+	* Improved IE compatibility
+	
+31 May 2014 - Version 1.1.1
+	
+	* Improved separator styling
+	* Fixed fonts issue
+	* Fixed other minor issues
+	* Fixed an issue with the gallery module in Firefox
+
+29 May 2014 - Version 1.1
+	
+	* Added a new module for fullscreen galleries
+	* Added new modules for latest portfolio / posts
+	* Added a separator module
+	* Added a "back to portfolio" option
+	* Added "auto height" option for the image module
+	* Added a new "tabs" style for the content slider shortcode (updated Lobo Shortcodes plugin to v1.0.2)
+	* Tweaked contact form's design
+	* Improved modules resizing
+	* Optimized JS and fixed other small bugs
+
+27 May 2014 - Version 1.0.3
+	
+	* Added autoplay option for hero sliders
+	* Added custom 404 page header
+	* Updated language files and added German translation
+	* Improved module builder (text modules & tinyMCE handling)
+	* Fixed all issues related to sliders (custom cursors and logo detection)
+	* Fixed invisible "submit comment" button in Safari
+	* Fixed some "lazy loading pages" issues
+	* Fixed other small style related bugs
+
+23 May 2014 - Version 1.0.2
+	
+	* Fixed hero slider resizing
+	* Fixed automatic updates engine
+	* Fixed blank portfolio page issues
+
+22 May 2014 - Version 1.0.1
+	
+	* Added an option to enable looping on the hero slider
+	* Added an option to hyperlink slides in the hero slider
+	* Made the theme widget-ready by creating a shortcode which inserts custom widget areas in text modules (updated Lobo Shortcodes plugin to v1.0.1)
+	* Fixed comment dates issue
+
+21 May 2014 - Version 1.0
+	
+	* First Release

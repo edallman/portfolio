@@ -1,0 +1,5 @@
+*** Lobo Portfolio Changelog ***
+
+12 May 2014 - Version 0.1
+	
+	* First Release
