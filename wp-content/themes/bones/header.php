@@ -47,14 +47,14 @@
 			  <meta charset="utf-8">
 			  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 			  <meta name="viewport" content="width=device-width, initial-scale=1">
-			  <title>Halcyon Days - An Exclusive Freebie for Codrops by Peter Finlan.</title>
+			  <title>Emilia Dallman</title>
 			  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-			  <link href="css/bootstrap.min.css" rel="stylesheet">
+			  <link href="<?php echo get_template_directory_uri(); ?>/library/css/bootstrap.min.css" rel="stylesheet">
 			  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-			  <link href="css/flexslider.css" rel="stylesheet" >
-			  <link href="css/styles.css" rel="stylesheet">
-			  <link href="css/queries.css" rel="stylesheet">
-			  <link href="css/animate.css" rel="stylesheet">
+			  <link href="<?php echo get_template_directory_uri(); ?>/library/css/flexslider.css" rel="stylesheet" >
+			  <link href="<?php echo get_template_directory_uri(); ?>/library/css/style.css" rel="stylesheet">
+			  <link href="<?php echo get_template_directory_uri(); ?>/library/css/queries.css" rel="stylesheet">
+			  <link href="<?php echo get_template_directory_uri(); ?>/library/css/animate.css" rel="stylesheet">
 			      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 			      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 			      <!--[if lt IE 9]>
@@ -91,8 +91,8 @@
 			            </div>
 			            <div class="row">
 			              <div class="col-md-8 col-md-offset-2 text-center inner">
-			                <h1 class="animated fadeInDown">HALCYON<span>DAYS</span></h1>
-			                <p class="animated fadeInUp delay-05s">An exclusive HTML5/CSS3 freebie by Peter Finlan, for <em>Codrops</em></p>
+			                <h1 class="animated fadeInDown">HOLISTIC<span>DESIGN & DEVELOPMENT</span></h1>
+			                <p class="animated fadeInUp delay-05s">Emilia Dallman</p>
 			              </div>
 			            </div>
 			            <div class="row">

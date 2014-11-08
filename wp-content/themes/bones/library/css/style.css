@@ -1276,9 +1276,11 @@ html { font-size: 100%; /* 1 */
 html, html a { -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
-html, button, input, select, textarea { font-family: 'Varela Round', sans-serif; }
+html, button, input, select, textarea { font-family: 'Montserrat', sans-serif;
+text-transform: uppercase; }
 /* * Addresses margins handled incorrectly in IE 6/7. */
-body { margin: 0; font-family: 'Varela Round', sans-serif; }
+body { margin: 0; font-family: 'Montserrat', sans-serif; 
+text-transform: uppercase;}
 /* ==========================================================================
 Links
 ========================================================================== */
@@ -1293,8 +1295,8 @@ Typography
 /* * Addresses font sizes and margins set differently in IE 6/7.
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
  
-h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
-h2 { font-size: 1.5em; margin: 0.83em 0; }
+h1 { font-size: 3em; font-weight: 700; margin: 0.67em 0; color: #eee; letter-spacing: 4px; }
+h2 { font-size: 2em; margin: 0.83em 0; }
 h3 { font-size: 1.17em; margin: 1em 0; }
 h4 { font-size: 1em; margin: 1.33em 0; }
 h5 { font-size: 0.83em; margin: 1.67em 0; }
@@ -1459,10 +1461,23 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
-.hero h1 { font-size: 40px; letter-spacing: 12px; margin: 10px; }
-.hero h1 span { color: #a1a9b0; display: inline-block; }
-.hero p { letter-spacing: 1px; }
+.hero { 
+  background: url('../images/mountain.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.hero h1 { 
+  font-size: 66px; 
+  font-weight: 700;
+  letter-spacing: 12px; 
+  margin: 10px;
+}
+.hero h1 span { 
+  color: #a1a9b0; 
+  display: inline-block; 
+}
+.hero p { 
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase; }
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 /* ==========================================================================
@@ -1470,7 +1485,7 @@ Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
 .intro p { margin: 50px 0 0; }
-h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+h1.arrow { font-family:'Montserrat', 'Helvetica', sans-serif; font-size: 15px; text-transform: uppercase; color: #444; letter-spacing: 3px; background: url('../images/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 /* ==========================================================================
 Features
 ========================================================================== */
@@ -1568,7 +1583,7 @@ Waypoints
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
-.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+.delay-1s { animation-delay: 1s; -webkit-ation-delay: 1s; }
 .wp3 { background: url('../img/iphone-bg.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
 /*********************
 GENERAL STYLES
@@ -1691,6 +1706,8 @@ HEADER STYLES
   margin: 0.75em 0; }
   #logo a {
     color: white; }
+
+
 
 /*********************
 NAVIGATION STYLES
